@@ -1,0 +1,7 @@
+drupal_example_using_handle_api.create_handle:
+  path: '/drupal-example-using-handle-api/create-handle'
+  defaults:
+    _title: 'Create handle'
+    _form: 'Drupal\drupal_example_using_handle_api\Form\CreateHandle'
+  requirements:
+    _permission: 'access content'
